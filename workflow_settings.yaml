@@ -1,0 +1,5 @@
+defaultProject: flowing-design-425017-g7
+defaultLocation: US
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0-beta.4
