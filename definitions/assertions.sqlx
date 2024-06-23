@@ -1,0 +1,9 @@
+config {
+  type: "assertion",
+  schema:"dataform",
+  name:"assertion_unique_id"
+}
+
+SELECT id FROM ${ref("Students")}
+GROUP BY id HAVING COUNT(id)>1
+

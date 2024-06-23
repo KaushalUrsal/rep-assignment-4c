@@ -1,0 +1,27 @@
+config {
+  type: "table",
+  schema: "dataform",
+  name:"Students"
+}
+
+create or replace table dataform.Students as
+select
+  1 as id, 'Ashish' as first_name, 'Patil' as last_name, 85 as mark, 'B' as grade union all
+select
+  2 as id, 'Shivam' as first_name, 'Dale' as last_name, 90 as mark, 'A' as grade union all
+select
+  3 as id, 'Prathmesh' as first_name, 'Kamble' as last_name, 78 as mark, 'C' as grade union all
+select
+  4 as id, 'Prathmesh' as first_name, 'Ganbote' as last_name, 82 as mark, 'B' as grade union all
+select
+  5 as id, 'Shreyash' as first_name, 'Mandhare' as last_name, 95 as mark, 'A' as grade union all
+select
+  6 as id, 'Kaushal' as first_name, 'Ursal' as last_name, 60 as mark, 'D' as grade union all
+select
+  7 as id, 'Vishvajit' as first_name, 'Bamdale' as last_name, 88 as mark, 'B' as grade union all
+select
+  8 as id, 'Deepak' as first_name, 'Thorat' as last_name, 73 as mark, 'C' as grade union all
+select
+  9 as id, 'Sandeep' as first_name, 'Jagtap' as last_name, 85 as mark, 'B' as grade union all
+select
+  10 as id, 'Kedar' as first_name, 'Thorat' as last_name, 91 as mark, 'A' as grade

@@ -1,0 +1,8 @@
+config {
+    type:"view",
+    schema:"dataform",
+    name:"students_by_grade"
+    
+}
+SELECT grade,COUNT(*) AS student_count
+FROM ${ref("Students")} GROUP BY grade
